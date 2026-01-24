@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:8f2cb1f8-2a5a-48c6-9ced-cad726b0b83b",
+  "serialNumber": "urn:uuid:d86c81a2-8fca-48b2-9163-ea1f6d732af5",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-01-24T07:05:13Z",
+    "timestamp": "2026-01-24T10:34:44Z",
     "tools": {
       "components": [
         {
@@ -18837,6 +18837,191 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.operaton.bpm.qa/operaton-qa-integration-tests-engine@1.1.0-SNAPSHOT?type=jar",
+      "publisher": "Operaton",
+      "group": "org.operaton.bpm.qa",
+      "name": "operaton-qa-integration-tests-engine",
+      "version": "1.1.0-SNAPSHOT",
+      "description": "Operaton - QA Integration Tests - Engine",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.operaton.bpm.qa/operaton-qa-integration-tests-engine@1.1.0-SNAPSHOT?type=jar",
+      "externalReferences": [
+        {
+          "url": "https://www.operaton.org/operaton-database-settings/operaton-qa/operaton-qa-integration-tests-engine",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/operaton/operaton/issues/",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/operaton/operaton/operaton-parent/operaton-database-settings/operaton-qa/operaton-qa-integration-tests-engine",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.operaton.bpm.jakartaee/operaton-ejb-client@1.1.0-SNAPSHOT?type=jar",
+      "group": "org.operaton.bpm.jakartaee",
+      "name": "operaton-ejb-client",
+      "version": "1.1.0-SNAPSHOT",
+      "scope": "required",
+      "purl": "pkg:maven/org.operaton.bpm.jakartaee/operaton-ejb-client@1.1.0-SNAPSHOT?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.ow2.asm/asm@9.7.1?type=jar",
+      "publisher": "OW2",
+      "group": "org.ow2.asm",
+      "name": "asm",
+      "version": "9.7.1",
+      "description": "ASM, a very small and fast Java bytecode manipulation framework",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e2cdd32d198ad31427d298eee9d39d8d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f0ed132a49244b042cd0e15702ab9f2ce3cc8436"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8cadd43ac5eb6d09de05faecca38b917a040bb9139c7edeb4cc81c740b713281"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4767b01603dad5c79cc1e2b5f3722f72b1059d928f184f446ba11badeb1b381b3a3a9a801cc43d25d396df950b09d19597c73173c411b1da890de808b94f1f50"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "166e2be10a19ca6a6d7cadb542eb1c948562483f02557b467a50a3d19d01318e12e5c3b495c482f3f5369be1b7f20eed"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "e301862376e84df61c3547dbf637252750224fb5b74feb82f20e1527a8e3152c45f620192a9111a2db5e2f0e73ebd7ca"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "7edcc4ff09b3ace15091a8c550f552a324b5cee6c1527944db5823df7eba8d64"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9d220edc5528e4d788605721490f3d29483dd4bd506765e85d781048419aa89b686a70e316b82ef2a856ead56bb7be6b5d52d77b7ca6f27d5e0e347e9669d731"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.ow2.asm/asm@9.7.1?type=jar",
+      "externalReferences": [
+        {
+          "url": "http://asm.ow2.io/",
+          "type": "website"
+        },
+        {
+          "url": "https://repository.ow2.org/nexus/service/local/staging/deploy/maven2",
+          "type": "distribution-intake"
+        },
+        {
+          "url": "https://gitlab.ow2.org/asm/asm/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://mail.ow2.org/wws/arc/asm/",
+          "type": "mailing-list"
+        },
+        {
+          "url": "https://gitlab.ow2.org/asm/asm/",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-joda@2.21.0?type=jar",
+      "publisher": "FasterXML",
+      "group": "com.fasterxml.jackson.datatype",
+      "name": "jackson-datatype-joda",
+      "version": "2.21.0",
+      "description": "Add-on module for Jackson (https://github.com/FasterXML/jackson) to support Joda (https://www.joda.org/joda-time/) data types.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a6e9f6da2da0fd873b2a563b953a4c7e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3e7311b8724759394ad167145a4485467d309e7e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b622f7a51f1f91f7bf0be97ac15e91c1b52e3b68b66013fce5f661e321281719"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7544b487b2f8f897eb4fc56d8335c4bdbee935e0e40d0af67eec468c879018483f9c0ced317d7ca1b4ade718bfe180df8149cae01156e682daeda2a95d2fc608"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "dfab50fb0cb98dd0f1497963fa27591aa74dadc2163e2bc8c3330b336798ce2504619491d8e47176b9fbdfc0982695b5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "15a7b761685546dbb48f974ff0d03c6f05ab80f4550ae4d4fc37a80095e665035cab3853aa5fb963081d015dbcaa2547"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "3c5a72a2298d3439d440603c1155289406bd8bb620f7be5cb968f89080c05d53"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "cff8189c58073d4cef9a6ae631ae5c8b6bf8a30e67a206e3d26c0ed466ac43933750f4df7b89ce89fa66b21de1560eea8a610a38a5bb8a6fb6835c3b83fab508"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-joda@2.21.0?type=jar",
+      "externalReferences": [
+        {
+          "url": "https://github.com/FasterXML/jackson-datatype-joda",
+          "type": "website"
+        },
+        {
+          "url": "https://central.sonatype.com/api/v1/publisher",
+          "type": "distribution-intake"
+        },
+        {
+          "url": "https://github.com/FasterXML/jackson-datatype-joda/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/FasterXML/jackson-datatype-joda",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.operaton.bpm.qa/operaton-qa-performance-tests-engine@1.1.0-SNAPSHOT?type=jar",
       "publisher": "Operaton",
       "group": "org.operaton.bpm.qa",
@@ -19105,81 +19290,6 @@
         },
         {
           "url": "https://github.com/operaton/operaton/operaton-spin-dataformat-all",
-          "type": "vcs"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:maven/org.ow2.asm/asm@9.7.1?type=jar",
-      "publisher": "OW2",
-      "group": "org.ow2.asm",
-      "name": "asm",
-      "version": "9.7.1",
-      "description": "ASM, a very small and fast Java bytecode manipulation framework",
-      "scope": "required",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "e2cdd32d198ad31427d298eee9d39d8d"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "f0ed132a49244b042cd0e15702ab9f2ce3cc8436"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "8cadd43ac5eb6d09de05faecca38b917a040bb9139c7edeb4cc81c740b713281"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "4767b01603dad5c79cc1e2b5f3722f72b1059d928f184f446ba11badeb1b381b3a3a9a801cc43d25d396df950b09d19597c73173c411b1da890de808b94f1f50"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "166e2be10a19ca6a6d7cadb542eb1c948562483f02557b467a50a3d19d01318e12e5c3b495c482f3f5369be1b7f20eed"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "e301862376e84df61c3547dbf637252750224fb5b74feb82f20e1527a8e3152c45f620192a9111a2db5e2f0e73ebd7ca"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "7edcc4ff09b3ace15091a8c550f552a324b5cee6c1527944db5823df7eba8d64"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "9d220edc5528e4d788605721490f3d29483dd4bd506765e85d781048419aa89b686a70e316b82ef2a856ead56bb7be6b5d52d77b7ca6f27d5e0e347e9669d731"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "BSD-3-Clause",
-            "url": "https://opensource.org/licenses/BSD-3-Clause"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.ow2.asm/asm@9.7.1?type=jar",
-      "externalReferences": [
-        {
-          "url": "http://asm.ow2.io/",
-          "type": "website"
-        },
-        {
-          "url": "https://repository.ow2.org/nexus/service/local/staging/deploy/maven2",
-          "type": "distribution-intake"
-        },
-        {
-          "url": "https://gitlab.ow2.org/asm/asm/issues",
-          "type": "issue-tracker"
-        },
-        {
-          "url": "https://mail.ow2.org/wws/arc/asm/",
-          "type": "mailing-list"
-        },
-        {
-          "url": "https://gitlab.ow2.org/asm/asm/",
           "type": "vcs"
         }
       ]
@@ -21006,7 +21116,7 @@
     },
     {
       "type": "application",
-      "bom-ref": "dfa5ad89-261c-4ce2-abb1-acdc5559dc44",
+      "bom-ref": "1fa7e40e-75fd-4ed2-a7ea-6d7a1ecb4d12",
       "name": "package-lock.json",
       "properties": [
         {
@@ -24717,7 +24827,7 @@
     },
     {
       "type": "application",
-      "bom-ref": "693b51f5-5b8e-4ec8-b0c5-f3f27641a393",
+      "bom-ref": "87a86a89-eafa-40cd-bcd9-4fa091693e79",
       "name": "/repo/webapps/frontend",
       "properties": [
         {
@@ -26756,6 +26866,49 @@
       ]
     },
     {
+      "ref": "pkg:maven/org.operaton.bpm.qa/operaton-qa-integration-tests-engine@1.1.0-SNAPSHOT?type=jar",
+      "dependsOn": [
+        "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1?type=jar",
+        "pkg:maven/jakarta.ejb/jakarta.ejb-api@4.0.1?type=jar",
+        "pkg:maven/jakarta.enterprise.concurrent/jakarta.enterprise.concurrent-api@3.0.1?type=jar",
+        "pkg:maven/jakarta.enterprise/jakarta.enterprise.cdi-api@4.0.1?type=jar",
+        "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1?type=jar",
+        "pkg:maven/jakarta.servlet/jakarta.servlet-api@6.0.0?type=jar",
+        "pkg:maven/jakarta.transaction/jakarta.transaction-api@2.0.1?type=jar",
+        "pkg:maven/org.operaton.bpm.jakartaee/operaton-ejb-client@1.1.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.operaton.bpm/operaton-engine-cdi@1.1.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.operaton.bpm/operaton-engine@1.1.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.operaton.bpm.dmn/operaton-engine-dmn@1.1.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.operaton.bpm/operaton-engine-spring@1.1.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.operaton.spin/operaton-spin-core@1.1.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.operaton.spin/operaton-spin-dataformat-json-jackson@1.1.0-SNAPSHOT?type=jar",
+        "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-joda@2.21.0?type=jar",
+        "pkg:maven/org.operaton.connect/operaton-connect-core@1.1.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.springframework/spring-context@6.2.15?type=jar",
+        "pkg:maven/org.springframework/spring-jdbc@6.2.15?type=jar",
+        "pkg:maven/org.springframework/spring-tx@6.2.15?type=jar",
+        "pkg:maven/org.springframework/spring-orm@6.2.15?type=jar",
+        "pkg:maven/org.springframework/spring-web@6.2.15?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.operaton.bpm.jakartaee/operaton-ejb-client@1.1.0-SNAPSHOT?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.ow2.asm/asm@9.7.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-joda@2.21.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.21?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.0?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.0?type=jar",
+        "pkg:maven/joda-time/joda-time@2.14.0?type=jar"
+      ]
+    },
+    {
       "ref": "pkg:maven/org.operaton.bpm.qa/operaton-qa-performance-tests-engine@1.1.0-SNAPSHOT?type=jar",
       "dependsOn": [
         "pkg:maven/org.operaton.bpm/operaton-engine@1.1.0-SNAPSHOT?type=jar",
@@ -26820,10 +26973,6 @@
         "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar",
         "pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.6?type=jar"
       ]
-    },
-    {
-      "ref": "pkg:maven/org.ow2.asm/asm@9.7.1?type=jar",
-      "dependsOn": []
     },
     {
       "ref": "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar",
@@ -27268,13 +27417,7 @@
       "dependsOn": []
     },
     {
-      "ref": "693b51f5-5b8e-4ec8-b0c5-f3f27641a393",
-      "dependsOn": [
-        "dfa5ad89-261c-4ce2-abb1-acdc5559dc44"
-      ]
-    },
-    {
-      "ref": "dfa5ad89-261c-4ce2-abb1-acdc5559dc44",
+      "ref": "1fa7e40e-75fd-4ed2-a7ea-6d7a1ecb4d12",
       "dependsOn": [
         "pkg:npm/%40bpmn-io/dmn-migrate@0.7.0",
         "pkg:npm/%40bpmn-io/form-js@1.18.0",
@@ -27319,6 +27462,12 @@
         "pkg:npm/requirejs-angular-define@1.1.0",
         "pkg:npm/requirejs@2.3.8",
         "pkg:npm/superagent@10.3.0"
+      ]
+    },
+    {
+      "ref": "87a86a89-eafa-40cd-bcd9-4fa091693e79",
+      "dependsOn": [
+        "1fa7e40e-75fd-4ed2-a7ea-6d7a1ecb4d12"
       ]
     },
     {
